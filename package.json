@@ -1,0 +1,21 @@
+{
+  "name": "seo-ranking-query",
+  "version": "1.0.0",
+  "description": "Seo ranking query",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "IMOYH",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "puppeteer": "^1.10.0",
+    "qs": "^6.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
