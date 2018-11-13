@@ -2,7 +2,7 @@
 * | Description: 
 * +---------------------------------------------------|
 * | Author: 浩丶IMOYH [oyhemail@163.com]
-* | Last Modified: 2018-11-12
+* | Last Modified: 2018-11-13
 **/
 const Puppeteer = require('puppeteer');
 
@@ -51,12 +51,14 @@ function google(query, callback) {
 }
 
 
-function getData(domain, keywords, limit) {
+function getData(domain, keywords) {
 	return new Promise((resolve, reject) => {
+		// const proxyUrl = 'socks5://162.243.108.141:1080';
 		// 创建浏览器实例
 		Puppeteer.launch({
-			headless: false,
+			headless: true,
 			slowMo: 50,
+			//args: ['--start-fullscreen','--no-sandbox','--proxy-server='+proxyUrl]
 		}).then(async browser => {
 			const page = await browser.newPage(); // 打开新标签
 			await page.setViewport({width: 1366, height: 768}); // 设置宽高

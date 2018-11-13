@@ -2,7 +2,7 @@
 * | Description: 
 * +---------------------------------------------------|
 * | Author: 浩丶IMOYH [oyhemail@163.com]
-* | Last Modified: 2018-11-10
+* | Last Modified: 2018-11-13
 **/
 
 const express = require('express');
@@ -90,17 +90,17 @@ app.get('/google',(req, res) => {
 		// {"id": 70, "keyword": "Wholesale Factory Promotional Neckband Headset"},
 		// {"id": 71, "keyword": "Fashion Factory Promotional Neckband Headset"},
 		{"id": 72, "keyword": "Factory Promotional Neckband Headset Manufacturers"},
-		{"id": 73, "keyword": "Factory Promotional Neckband Headset Factory"},
-		{"id": 74, "keyword": "ODM Neckband Wireless Headphones"},
-		{"id": 75, "keyword": "ODM Bluetooth In-ear Wireless Neckband Headset"},
-		{"id": 76, "keyword": "ODM Bluetooth Headset Neckband Retractable"},
-		{"id": 77, "keyword": "Wholesale Bluetooth Headset Neckband Retractable"},
-		{"id": 78, "keyword": "ODM Active Noise Canceling Bluetooth Stereo Headphone"},
-		{"id": 79, "keyword": "OEM Active Noise Canceling Bluetooth Stereo Headphone"},
-		{"id": 80, "keyword": "Wholesale Active Noise Canceling Bluetooth Stereo Headphone"},
-		{"id": 81, "keyword": "ODM Neckband Style Wireless Earphone"},
-		{"id": 82, "keyword": "Wholesale Neckband Style Wireless Earphone"},
-		{"id": 83, "keyword": "Wholesale Bluetooth Neckband Headphones"}
+		{"id": 73, "keyword": "Factory Promotional Neckband Headset Factory"}
+		// {"id": 74, "keyword": "ODM Neckband Wireless Headphones"},
+		// {"id": 75, "keyword": "ODM Bluetooth In-ear Wireless Neckband Headset"},
+		// {"id": 76, "keyword": "ODM Bluetooth Headset Neckband Retractable"},
+		// {"id": 77, "keyword": "Wholesale Bluetooth Headset Neckband Retractable"},
+		// {"id": 78, "keyword": "ODM Active Noise Canceling Bluetooth Stereo Headphone"},
+		// {"id": 79, "keyword": "OEM Active Noise Canceling Bluetooth Stereo Headphone"},
+		// {"id": 80, "keyword": "Wholesale Active Noise Canceling Bluetooth Stereo Headphone"},
+		// {"id": 81, "keyword": "ODM Neckband Style Wireless Earphone"},
+		// {"id": 82, "keyword": "Wholesale Neckband Style Wireless Earphone"},
+		// {"id": 83, "keyword": "Wholesale Bluetooth Neckband Headphones"}
 	]; 
 
 	google(req.query,(data) => {
